@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="programminglanguages" type="languageType">
+
+    </xs:element>
+    <xs:complexType name="languageType">
+        <xs:sequence>
+            <xs:element name="language" maxOccurs="unbounded" type="language"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="language">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="PHP"/>
+            <xs:enumeration value="Java"/>
+            <xs:enumeration value="C++"/>
+            <xs:enumeration value="Python"/>
+            <xs:enumeration value="Kotlin"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

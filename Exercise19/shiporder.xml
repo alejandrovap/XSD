@@ -1,0 +1,21 @@
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="shiporder.xsd" orderid="1">
+    <orderperson>Luis</orderperson>
+    <shipto>
+        <name>Javier</name>
+        <address>Calle San Clemente 2, 1ºIZQ</address>
+        <city>Santiago de Compostela</city>
+        <country>Spain</country>
+    </shipto>
+    <item>
+        <title>Vase</title>
+        <note>Fragile</note>
+        <quantity>2</quantity>
+        <price>35.99</price>
+    </item>
+    <item>
+        <title>Computer</title>
+        <quantity>1</quantity>
+        <price>1230.99</price>
+    </item>
+</shiporder>

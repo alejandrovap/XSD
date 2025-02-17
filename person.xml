@@ -1,0 +1,6 @@
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="person.xsd">
+    This is text
+    <name>Alba Souto</name>
+    <gender>Female</gender>
+</person>
