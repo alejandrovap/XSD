@@ -8,19 +8,24 @@
         <zip>10279</zip>
     </shipTo>
     <billTo country="US">
-        <name></name>
-        <street></street>
-        <city></city>
-        <state></state>
-        <zip></zip>
+        <name>Jamie</name>
+        <street>Blue Street</street>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10279</zip>
     </billTo>
-    <comment></comment>
     <items>
         <item partNum="123-DT">
             <productName>Phone</productName>
             <quantity>3</quantity>
             <USPrice>600.99</USPrice>
             <shipDate>2024-09-30</shipDate>
+        </item>
+        <item partNum="345-PO">
+            <productName>TV</productName>
+            <quantity>2</quantity>
+            <USPrice>1350</USPrice>
+            <shipDate>2024-10-27</shipDate>
         </item>
     </items>
 </purchaseOrder>
