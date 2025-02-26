@@ -137,6 +137,18 @@
     </xs:simpleType>
 
     <xs:simpleType name="availableLanguagesType">
-        <xs:list itemType="xs:string"/> <!-- FALTA INDICAR QUE LENGUAS SON-->
+        <xs:list itemType="languagesListType"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="languagesListType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="French" />
+            <xs:enumeration value="Italian" />
+            <xs:enumeration value="German" />
+            <xs:enumeration value="English" />
+            <xs:enumeration value="Chinese" />
+            <xs:enumeration value="Korean" />
+            <xs:enumeration value="Japanese" />
+        </xs:restriction>
     </xs:simpleType>
 </xs:schema>
