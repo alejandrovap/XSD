@@ -14,7 +14,7 @@
                                         <xs:element name="comments">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="good" type="xs:string" />
+                                                    <xs:element name="good" type="goodType" />
                                                     <xs:element name="bad" type="xs:string" />
                                                 </xs:sequence>
                                             </xs:complexType>
@@ -133,6 +133,12 @@
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="0" />
             <xs:maxInclusive value="100000000" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="goodType">
+        <xs:restriction base="viewsType">
+            <xs:maxInclusive value="200000" />
         </xs:restriction>
     </xs:simpleType>
 
